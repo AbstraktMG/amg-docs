@@ -1,0 +1,53 @@
+title: AMG Suite Docs
+description: Documentation for the Abstrakt Marketing Group WordPress plugin suite
+remote_theme: just-the-docs/just-the-docs
+url: https://abstraktmg.github.io
+baseurl: /amg-docs
+
+# Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s\-/]+/
+  rel_url: true
+  button: false
+
+# Color scheme
+color_scheme: dark
+
+# Navigation
+nav_external_links:
+  - title: AMG Suite on GitHub
+    url: https://github.com/AbstraktMG/amg-suite
+
+# Aux links
+aux_links:
+  AMG Suite on GitHub:
+    - https://github.com/AbstraktMG/amg-suite
+
+# Footer
+footer_content: "Copyright &copy; Abstrakt Marketing Group. Documentation for the AMG Suite."
+
+# Enable back-to-top
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Collapse nav by default
+nav_sort: case_sensitive
+
+# Heading anchors
+heading_anchors: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - "*.sh"
